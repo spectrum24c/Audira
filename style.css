@@ -79,9 +79,6 @@ header .btn{
   background-color: var(--secondary-color);
 }
 
-#main{
-  overflow: hidden;
-}
 
 #headphone{
   position: absolute;
@@ -314,7 +311,7 @@ header .btn{
   position: relative;
   margin-left: -9rem;
   width: 100px;
-  left: 7rem;
+  left: 10rem;
 }
 
  .btn{
@@ -335,23 +332,62 @@ header .btn{
   filter: drop-shadow(8px 35px 6px #00000025);
   will-change: transform;
   z-index: 9;
+  margin-left: 2rem;
 }
 
 #section1 h1{
   font-size: 15.5vw;
-  width: 50vw;
+  width: 15vw;
   line-height: 0.85;
   margin-bottom: 0;
+  margin-left: 5rem;
 }
 
 #section1{
   height: 100vh;
   width: 10vw;
   margin: auto;
+  margin-top: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
+
+.feature-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
+  margin-top: 8vw;
+  margin-left: -2rem;
 }
 
+.feature-box{
+  border: 2px solid var(--black);
+  padding: 1.2vw 1.4vw;
+  width: 40vw;
+}
+
+#scetion2{
+  height: 100vh;
+}
+
+#section2 .content-wrapper{
+  max-width: 500px;
+  margin-left: -2rem;
+  animation: 2s fade linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 80%;
+}
+
+}
+
+@keyframes fade{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}

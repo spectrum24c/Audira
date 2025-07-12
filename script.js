@@ -3,7 +3,7 @@
 ScrollSmoother.create({
   wrapper: "#smooth-wrapper",
   content: "#smooth-content",
-  smooth: 5,            // Smoothness (higher is slower)
+  smooth: 10,            // Smoothness (higher is slower)
   effects: true,          // Enable data-speed & data-lag
 });
 
@@ -11,7 +11,7 @@ ScrollSmoother.create({
 let isShortHeight = window.screen.height < 1050; 
 
 ScrollTrigger.matchMedia({
-  "(max-width: 991px)": function () {
+  "(min-width: 991px)": function () {
 
     gsap.to('#headphone', {
       scrollTrigger: {
@@ -160,9 +160,8 @@ ScrollTrigger.matchMedia({
   }
 })
 
-
 ScrollTrigger.matchMedia({
-  "(min-width: 990px)": function () {
+  "(max-width: 990px)": function () {
 
     gsap.to('#headphone', {
       scrollTrigger: {
@@ -171,10 +170,9 @@ ScrollTrigger.matchMedia({
         end: 'center center',
         scrub: true,
       },
-      y: '85vh',
+      y: '129vh',
       x: '18vw',
-      width: '32vw',
-      rotate: 90,
+      width: '32vw',      
       ease: 'power1.inOut',
       immediateRender: false
     });
@@ -186,7 +184,7 @@ ScrollTrigger.matchMedia({
         end: 'bottom bottom',
         scrub: true,
       },
-      y: '418vh',
+      y: '218vh',
       x: '0',
       width: '35vw',
       rotate: 35,
