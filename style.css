@@ -291,3 +291,67 @@ footer .social{
 ::-webkit-scrollbar{
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9rem;
+  max-width: 20rem;
+}
+
+header{
+  padding: 1rem 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-80%);
+  top: 0;
+  z-index: 1;
+}
+
+header .btn{
+  position: relative;
+  margin-left: -9rem;
+  width: 100px;
+  left: 7rem;
+}
+
+ .btn{
+  text-align: center;
+   color: #fff;
+  padding: 5px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+#headphone{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5.2%;
+  width: 60vw;
+  max-width: 660px;
+  filter: drop-shadow(8px 35px 6px #00000025);
+  will-change: transform;
+  z-index: 9;
+}
+
+#section1 h1{
+  font-size: 15.5vw;
+  width: 50vw;
+  line-height: 0.85;
+  margin-bottom: 0;
+}
+
+#section1{
+  height: 100vh;
+  width: 10vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+}
+
