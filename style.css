@@ -426,6 +426,25 @@ header .btn{
   font-weight: 700;
 }
 
+#section6{
+   display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: -20rem;
+  gap: 3rem;
+  margin-left: 2rem;
+}
+
+#section6 img{
+  box-shadow: 0 0 30px #73442536;
+  width: 22rem;
+}
+
+#section6 p{
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+
+
 }
 
 @keyframes fade{

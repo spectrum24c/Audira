@@ -226,7 +226,7 @@ ScrollTrigger.matchMedia({
         end: 'bottom bottom',
         scrub: true,
       },
-      y: isShortHeight ? '378vh' : '419vh',
+      y: isShortHeight ? '385vh' : '419vh',
       width: '28vw',
       ease: 'power1.inOut',
       immediateRender: false
