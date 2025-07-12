@@ -202,19 +202,6 @@ header .btn{
 }
 
 #section5{
-  text-align: center;
-  padding-top: 4vw;
-  padding-bottom: 8vw;
-  min-height: 94vh;
-}
-
-#section5 .product-section{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 3rem;
-}
-
-#section5{
    text-align: center;
    padding-top: 4vw;
    padding-bottom: 8vw;
@@ -387,7 +374,7 @@ header .btn{
 
 #section3 h2{
  margin-top: 7rem;
-margin-left: -3rem;
+ margin-left: -3rem; 
 }
 
 #section3 p{
@@ -398,6 +385,45 @@ margin-left: -3rem;
   width: 100%;
   width: 20rem;
   box-shadow: 0 0 30px #73442436;
+}
+
+#section5{
+   text-align: center;
+   padding-top: 4vw;
+   padding-bottom: 8vw;
+   min-height: 100vh;
+}
+
+#section5 .product-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3rem;
+  gap: 3rem;
+  margin-left: -2rem;
+}
+
+#section5 img{
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1.5rem;
+  filter: drop-shadow(6px 15px 5px #00000018);
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.product .name{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product .price{
+  font-size: 24px;
+  font-weight: 700;
 }
 
 }
