@@ -170,9 +170,9 @@ ScrollTrigger.matchMedia({
         end: 'center center',
         scrub: true,
       },
-      y: '129vh',
-      x: '18vw',
-      width: '32vw',      
+      y: '135vh',
+      x: '23vw',
+      width: '42vw',      
       ease: 'power1.inOut',
       immediateRender: false
     });

@@ -294,7 +294,6 @@ footer .social{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 9rem;
   max-width: 20rem;
 }
 
@@ -302,7 +301,7 @@ header{
   padding: 1rem 0;
   position: fixed;
   left: 50%;
-  transform: translateX(-80%);
+  transform: translateX(-90%);
   top: 0;
   z-index: 1;
 }
