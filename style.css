@@ -444,6 +444,24 @@ header .btn{
   width: 20rem;
 }
 
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-top: 2px solid var(--primary-color);
+}
+
+footer .logo{
+  max-width: 132px;
+  margin-left: -1rem;
+}
+
+footer .social{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
 }
 
